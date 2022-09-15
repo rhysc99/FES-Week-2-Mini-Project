@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <section>
+      <!-- This is the landing page section-->
+      <nav>
+        <!-- Navigataion Bar-->
+        <img src="./assets/FES.svg" class="logo" alt="" />
+        <!--Telling the file where the picture is located that will be used in the nav bar-->
+        <ul>
+          <!--Unordered list (bullets)-->
+          <!--List items-->
+          <li><a href="#about">About</a></li>
+          <li><a href="#discord">Discord</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- Nav Bar finished-->
+
+
+
+
+
+
+      <header>
+        <div class="row">
+        <div>
+          <!-- Div used here to group following elements together-->
+          <h1>Best place to learn FrontEnd</h1>
+          <p class="subheader">Go from absolute begginger to pro with a simoplified process</p>
+          <button>Start Now</button>
+        </div>
+        <figure>
+          <img src="./assets/laptop.png" alt="Home page image" />
+          <!--'alt' is used for screen to text-->
+        </figure>
+      </div>
+      </header>
+    </section>
+
+
+
+
+
+    <main>
+      <!-- The following section IDs must be spelled exactly like they are in the list above-->
+      <section id="about">
+        <h2>About</h2>
+        <div class="row">
+        <div class="section__description">
+        <div class="section__description--wrapper"> <!-- Div containing text before the image as in example text is on left-->
+          <p class="section__description--para">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            quos natus dolore sequi cum omnis deserunt quidem odio? Labore modi
+            quam et accusamus iste sint vitae at! Dignissimos, iure nobis?
+          </p>
+          <p class="section__description--para">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            quos natus dolore sequi cum omnis deserunt quidem odio? Labore modi
+            quam et accusamus iste sint vitae at! Dignissimos, iure nobis?
+          </p>
+        </div>
+        <figure class="about__img--wrapper"> <!-- Used for images-->
+          <img src="./assets/about.jpg" alt="About">
+        </figure>
+      </div>
+      </section>
+
+
+
+
+      <section id="discord">
+        <h2>Discord</h2>
+        <div class="section__description">
+        <figure class="about__img--wrapper"> <!-- Image first this time as it comes before the text in example-->
+          <img src="./assets/discord.png" alt="Discord">
+        </figure>
+        <div class="section__description--wrapper">
+          <p class="section__description--para">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            quos natus dolore sequi cum omnis deserunt quidem odio? Labore modi
+            quam et accusamus iste sint vitae at! Dignissimos, iure nobis?
+          </p>
+          <p class="section__description--para">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            quos natus dolore sequi cum omnis deserunt quidem odio? Labore modi
+            quam et accusamus iste sint vitae at! Dignissimos, iure nobis?
+          </p>
+        </div>
+      </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action=""> <!-- Creating a form-->
+          <span>Email</span> <!-- generic inline container for inline elements and content. It is used to group elements for styling purposes-->
+          <input type="email" placeholder="rhys@example.com"> 
+          <span>Message</span>
+          <textarea type="text" placeholder="Cool website, lets get connected!"></textarea>
+          <button>Contact Us</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+        <img class="footer__logo" src="./assets/FES.svg" alt="">
+        <div class="footer__links">
+            <a class="footer__link" href="#about">About</a>
+            <a class="footer__link" href="#discord">Discord</a>
+            <a class="footer__link" href="#contact">Contact</a>
+            <a class="footer__link" href="">Courses</a>
+        </div>
+        <p>
+            Copyright Frontend Simplified
+        </p>
+    </footer>
+  </body>
+</html>
